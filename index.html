@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline Novel Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="leftSidebar" class="sidebar">
+    <div class="sidebar-header">Novels</div>
+    <div id="novelList" class="list"></div>
+    <div class="bottom-area">
+      <button id="newNovelBtn">+ New Novel</button>
+    </div>
+  </div>
+
+  <div id="rightSidebar" class="sidebar">
+    <div class="sidebar-header" id="chapterSidebarTitle">Chapters</div>
+    <div id="chapterList" class="list"></div>
+  </div>
+
+  <div id="mainContent">
+    <div id="mainHeader">Offline Novel Manager</div>
+    <div id="mainBody">
+      <p class="info-text pc-only">Select a novel from the left sidebar.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
